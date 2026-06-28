@@ -181,7 +181,3 @@ The current pipeline is a **production-ready V4 backend**. The roadmap to a full
 4. **Raissi, M., Perdikaris, P. & Karniadakis, G.E. (2019).** Physics-informed neural networks. *Journal of Computational Physics*, 378, 686–707.
 
 ---
-
-<div align="center">
-Built during a 4-day hackathon sprint · Delhi-NCR Urban Climate Lab · June 2026
-</div>
