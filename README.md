@@ -175,7 +175,7 @@ The current pipeline is a **production-ready V4 backend**. The roadmap to a full
 
 ## 📚 Key References
 
-1. **Kundu, A., Mukherjee, S. & Mukhopadhyay, S. (2026).** Seasonal drivers of urban heat and their implications for sustainable spatial planning: A case study from a rapidly developing city of eastern India. *Sustainable Cities and Society*, 140, 107246. https://doi.org/10.1016/j.scs.2026.107246
+1. **Kundu, A., Mukherjee, S. & Mukhopadhyay, S. (2026).** Seasonal drivers of urban heat and their implications for sustainable spatial planning: A case study from a rapidly developing city of eastern India. *Sustainable Cities and Society*, 140, 107246.
 2. **Liang, S. (2001).** Narrowband to broadband conversions of land surface albedo I: Algorithms. *Remote Sensing of Environment*, 76(2), 213–238.
 3. **Deb, K. et al. (2002).** A fast and elitist multiobjective genetic algorithm: NSGA-II. *IEEE Transactions on Evolutionary Computation*, 6(2), 182–197.
 4. **Raissi, M., Perdikaris, P. & Karniadakis, G.E. (2019).** Physics-informed neural networks. *Journal of Computational Physics*, 378, 686–707.
