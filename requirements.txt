@@ -21,6 +21,7 @@ streamlit
 pydeck
 matplotlib
 folium
+plotly
 
 # AI agent
 langchain
