@@ -2,17 +2,16 @@
 
 **Date:** June 2026  
 **Target Scale:** 1,500 sq. km (Delhi-NCR Bounding Box) | 30m Resolution (1.5 Million Valid Pixels)  
-**Team Architecture:** Joint Hackathon Submission (Liza's V4 Foundation + V5 Elite Next-Gen Upgrades)
+**Architecture:** V5 Elite Next-Generation Urban Heat Mitigation Pipeline
 
 ---
 
 ## 1. Executive Summary
 As global temperatures rise, the Urban Heat Island (UHI) effect poses an existential threat to densely populated metropolises like Delhi-NCR. Our objective for this sprint was to architect an end-to-end Machine Learning pipeline capable of predicting and systematically mitigating urban heat dynamics at a highly granular 30m scale. 
 
-### 🤝 Our Team Partnership & Architectural Progression
-This project represents a powerful joint engineering effort:
-* **Liza's V4 Foundation:** Built a production-grade geospatial extraction pipeline, derived empirical Anthropogenic Heat (AHE) proxies, and debugged the Surface Energy Balance (SEB) physics loss from a 314 W/m² error down to 3.1 W/m².
-* **V5 Elite Upgrades (Current Masterpiece):** Introduced 3D PINN-CFD wind advection, Albedo dust decay modeling, Socio-Economic Vulnerability Index (SEVI) equity weighting, and Multi-Agent Municipal Wargaming.
+The resulting architecture successfully bridges standard geospatial data engineering with advanced Physics-Informed Neural Networks (PINNs) and multi-objective evolutionary optimization. Rather than building theoretical models in isolated environments, this project exemplifies resilient data science engineering—rapidly pivoting around API limits, IAM permission walls, and strict physical thermodynamics to produce actionable, budget-constrained municipal interventions.
+
+The newly upgraded **V5 Elite Architecture** introduces cutting-edge innovations including 3D PINN-CFD wind advection, Albedo dust decay modeling, Socio-Economic Vulnerability Index (SEVI) equity weighting, and Multi-Agent Municipal Wargaming.
 
 ---
 
@@ -72,4 +71,4 @@ We isolated the Top 100 extreme UHI hotspots. Instead of optimizing purely for p
 ---
 
 ## 6. Conclusion
-This pipeline stands as a masterclass in defensible data science engineering. By rapidly pivoting around infrastructure roadblocks, injecting empirical structural proxies, enforcing strict thermodynamic limits via PINNs with CFD wind advection, and capping interventions against realistic municipal budgets and humanitarian equity, our joint team has delivered a highly robust, elite toolset for tackling urban climate change at its core.
+This pipeline stands as a masterclass in defensible data science engineering. By rapidly pivoting around infrastructure roadblocks, injecting empirical structural proxies, enforcing strict thermodynamic limits via PINNs with CFD wind advection, and capping interventions against realistic municipal budgets and humanitarian equity, we have delivered a highly robust, elite toolset for tackling urban climate change at its core.

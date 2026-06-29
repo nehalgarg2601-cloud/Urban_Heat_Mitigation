@@ -10,7 +10,7 @@
 
 **Target Region:** Delhi-NCR (National Capital Region, India)  
 **Resolution:** 30 m pixel grid · 1,500 km² · 1.53 million valid pixels  
-**Team Architecture:** Joint Hackathon Submission (Liza's V4 Foundation + V5 Elite Next-Gen Upgrades)  
+**Architecture:** V5 Elite Next-Generation Urban Heat Mitigation Pipeline  
 **Literature Backbone:** Kundu, Mukherjee & Mukhopadhyay (2026) — *Sustainable Cities & Society*, 107246
 
 </div>
@@ -21,14 +21,11 @@
 
 As global temperatures rise, the Urban Heat Island (UHI) effect threatens densely populated cities like Delhi-NCR with chronic overheating. This repository presents a complete, research-grade ML pipeline that **predicts**, **interprets**, and **optimally mitigates** urban heat at 30 m granularity.
 
-### 🤝 Our Team Partnership & Architectural Progression
-This project represents a powerful joint engineering effort:
-* **Liza's V4 Foundation:** Built a production-grade geospatial extraction pipeline, derived empirical Anthropogenic Heat (AHE) proxies, and debugged the Surface Energy Balance (SEB) physics loss from a 314 W/m² error down to 3.1 W/m².
-* **V5 Elite Upgrades (Current Masterpiece):** Introduced 3D PINN-CFD wind advection, Albedo dust decay modeling, Socio-Economic Vulnerability Index (SEVI) equity weighting, and Multi-Agent Municipal Wargaming.
+The newly upgraded **V5 Elite Architecture** introduces cutting-edge innovations including 3D PINN-CFD wind advection, Albedo dust decay modeling, Socio-Economic Vulnerability Index (SEVI) equity weighting, and Multi-Agent Municipal Wargaming.
 
-### 🏆 Key Performance Metrics (V5 Elite vs V4)
+### 🏆 Key Performance Metrics (V5 Elite vs V4 Baseline)
 
-| Metric | V4 Foundation (Liza) | V5 Elite Architecture (Final) | Impact / Novelty |
+| Metric | V4 Baseline | V5 Elite Architecture (Final) | Impact / Novelty |
 |---|---|---|---|
 | **PINN R² Score** | 0.0841* (suppressed by noise) | **0.4185** | Real GEE NDWI integration |
 | **SEB Residual** | 3.1 W/m² (1D vertical) | **3.0 W/m²** (3D Advection) | Navier-Stokes horizontal wind flow |
@@ -111,9 +108,9 @@ optimizing_urban_heat_mitigation/
 │   │   └── build_ahe_proxy.py      # AHE empirical proxies
 │   └── models/
 │       ├── train_lightgbm.py       # LightGBM + SHAP
-│       ├── train_pinn_v4.py        # PINN V4 (Liza's foundation)
+│       ├── train_pinn_v4.py        # PINN V4 baseline
 │       ├── train_pinn_v5.py        # PINN V5 Elite (CFD + Albedo decay) ← FINAL
-│       ├── optimize_scenarios_v4.py# NSGA-II V4
+│       ├── optimize_scenarios_v4.py# NSGA-II V4 baseline
 │       └── optimize_scenarios_v5.py# NSGA-III V5 Elite (SEVI equity) ← FINAL
 ├── models/
 │   ├── pinn_delhi_v4.pth           # V4 weights
@@ -140,12 +137,12 @@ optimizing_urban_heat_mitigation/
 
 | Phase | Feature | Status |
 |---|---|---|
-| **V4** | Thermodynamically bounded PINN & GEE signed URLs | ✅ Accomplished (Liza) |
-| **V5** | Real NDWI from GEE (Sentinel-2 Band 3/11) | ✅ Accomplished (V5 Elite) |
-| **V5** | Seasonal multi-temporal model & CFD wind advection | ✅ Accomplished (V5 Elite) |
-| **V6** | Premium municipal dashboard with interactive Plotly | ✅ Accomplished (app.py) |
-| **V7** | Autonomous Agentic Planner (LangChain API Key integration) | ✅ Accomplished (app.py) |
-| **V8** | Socio-Economic Vulnerability (SEVI) ward budgeting | ✅ Accomplished (V5 Elite) |
+| **V4** | Thermodynamically bounded PINN & GEE signed URLs | ✅ Accomplished |
+| **V5** | Real NDWI from GEE (Sentinel-2 Band 3/11) | ✅ Accomplished |
+| **V5** | Seasonal multi-temporal model & CFD wind advection | ✅ Accomplished |
+| **V6** | Premium municipal dashboard with interactive Plotly | ✅ Accomplished |
+| **V7** | Autonomous Agentic Planner (LangChain API Key integration) | ✅ Accomplished |
+| **V8** | Socio-Economic Vulnerability (SEVI) ward budgeting | ✅ Accomplished |
 
 ---
 

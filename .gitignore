@@ -89,3 +89,12 @@ Desktop.ini
 .coverage
 htmlcov/
 .pytest_cache/
+
+# =============================================================
+# Local PDF Reports & Generation Scripts
+# =============================================================
+reports/
+*.pdf
+generate_proposal_pdf.py
+generate_team_elite_pdf.py
+generate_true_novelty_pdf.py
